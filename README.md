@@ -276,7 +276,7 @@ cd /etc/systemd/system/
 touch minecraft-1.17.1.service
 chmod +x minecraft-1.17.1.service
 echo "[Unit]" >> minecraft-1.17.1.service
-echo "Description=Start Mincraft" >> minecraft-1.17.1.service
+echo "Description=Start Minecraft" >> minecraft-1.17.1.service
 echo "After=network.target" >> minecraft-1.17.1.service
 echo "" >> minecraft-1.17.1.service
 echo "[Service]" >> minecraft-1.17.1.service
