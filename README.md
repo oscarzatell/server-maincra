@@ -111,6 +111,15 @@ services:
       - /root/docker/maincra:/data
 ```
 
+```
+mkdir -p /etc/scripts/
+```
+
+
+
+```
+chmod +x nombredelarchivo.sh
+```
 
 ```
 # Minecraft 1.17 Setup and Installation Ubuntu 16+
